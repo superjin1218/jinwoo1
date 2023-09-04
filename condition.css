@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .headerContainer {
+    width: 100%;
+    height:14%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+  }
+  
+  .header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .personContainer {
+    background-color: rgba(67, 220, 137, 1);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+  }
+  
+  .title {
+    width: 50%;
+    height: 50px;
+    background-color: rgb(113, 255, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .underLine {
+    width: 90%;
+    height: 5px;
+    background-color: rgba(67, 220, 137, 1);
+    bottom: 0;
+  }
+  
+  .mainContainer1 {
+    height: 25%;
+    display: flex;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+#homebox{
+    font-size: 60px;
+    filter: invert(98%) sepia(12%) saturate(2097%) hue-rotate(68deg) brightness(93%) contrast(106%);
+    font-weight: bold;
+  }
+
+  .trash1{
+    padding:50px;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  #trashbox{
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  .name1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .codtionbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .condition_text{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .erasebox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #erase_picture{
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .codtionbox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 80px;;
+  }
